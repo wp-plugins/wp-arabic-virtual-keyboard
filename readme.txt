@@ -19,11 +19,11 @@ You can set the pages to be displayed the keyboard and where/position it should 
 No usages of images. Only css and text usages.
 
 Browser Compatible
--Firefox
--Chrome
--Internet Explorer 6,7,8,9,10
--Safari
--Opera
+	-Firefox
+	-Chrome
+	-Internet Explorer 6,7,8,9,10
+	-Safari
+	-Opera
 
 
 == Installation ==
