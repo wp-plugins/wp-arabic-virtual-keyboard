@@ -3,6 +3,7 @@ div#keyboard_main_wrapper {
 	margin: 0 auto;
 	position: relative;
 	width: 684px;
+	margin-bottom:50px;
 }
 
 div#keyboard ul.cf li a, div#keyboard ul.cf li a:hover { text-decoration:none !important;cursor:pointer !important; color:#990033 !important; }

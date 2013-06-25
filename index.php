@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Arabic Virtual Keyboard
 Plugin URI: http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/
-Description: Make it very easy to type using this virtual keyboard without any 3rd party Software or Web sites.If you have a Wordpress Blog you can use this plugin. This Plugin make it really easy to type in in Arabic language.There is no need of any other Web Sites or Software. You can search something in Google or Youtube by using this keyboard.If your keyboard is not working, or you can type in mobile phone easy using this virtual keyboard.
+Description: Make it very easy to type using this virtual keyboard without any 3rd party Software or Web sites.This Plugin make it really easy to type in in Arabic language.There is no need of any other Web Sites or Software. You can search something in Google or Youtube by using this keyboard.If your keyboard is not working, or you can type in mobile phone easy using this virtual keyboard.
 Author: Sumith Harshan
 Author URI: http://webexplorar.com/
 Version: 1.0
