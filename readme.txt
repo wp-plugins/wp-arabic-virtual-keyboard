@@ -39,15 +39,15 @@ http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/
 == Frequently Asked Questions ==
 
 = Not correctly displaying arabic characters. = 
-	Make sure the following meta tag is exist immediately after head tag.If not exist add it.
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+Make sure the following meta tag is exist immediately after head tag.If not exist add it.
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	
 = Not properly displaying arabic characters and layout in some web browser. = 
-	Make sure the following meta tag is exist immediately after head tag.If not exist add it.
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>
+Make sure the following meta tag is exist immediately after head tag.If not exist add it.
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>
 	 
 = More questions? =
-	Visit the Plugin Page. Ask questions. Plugin author will be glad to answer.
+Visit the Plugin Page. Ask questions. Plugin author will be glad to answer.
 
 
 == Screenshots ==
