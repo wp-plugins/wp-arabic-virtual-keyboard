@@ -18,12 +18,12 @@ If your keyboard is not working, or you can type in mobile phone easy using this
 You can set the pages to be displayed the keyboard and where/position it should be displayed in the page....etc
 No usages of images. Only css and text usages.
 
-Browser Compatible
-* **-Firefox**
-* **-Chrome**
-* **-Internet Explorer 6,7,8,9,10**
-* **-Safari**
-* **-Opera**
+<h4>Browser Compatible</h4>
+* **Firefox 16+**
+* **Chrome 20+**
+* **Internet Explorer 6,7,8,9,10**
+* **Safari**
+* **Opera**
 
 
 == Installation ==
@@ -31,22 +31,22 @@ Browser Compatible
 
 1. Upload "wp-arabic-keyboard" file to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to Settings->Arabic Keyboard and set the configuration settings. 
+3. Go to Settings->WP Arabic Keyboard and set the configuration settings. 
 
 * **If you more details visit official plugin Page.**
 http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/
 
 == Frequently Asked Questions ==
 
-=Not correctly displaying arabic characters.= 
+= Not correctly displaying arabic characters. = 
 	Make sure the following meta tag is exist immediately after head tag.If not exist add it.
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	
-=Not properly displaying arabic characters and layout in some web browser.= 
+= Not properly displaying arabic characters and layout in some web browser. = 
 	Make sure the following meta tag is exist immediately after head tag.If not exist add it.
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>
 	 
-=More questions?=
+= More questions? =
 	Visit the Plugin Page. Ask questions. Plugin author will be glad to answer.
 
 
@@ -54,6 +54,10 @@ http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/
 
 1. As Arabic Virtual Keyboard seems.
 2. Arabic Virtual Keyboard Settings.
+
+
+== Other Notes ==
+You can put this keyboard any where using shortcode in next version.
 
 
 == Changelog ==
