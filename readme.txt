@@ -2,7 +2,7 @@
 Contributors: Sumith Harshan 
 Donate link: http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/
 Tags: Sumith Harshan,arabic,keyboard,virtual,Iroshan,unicode
-Requires at least: 2.7 or higher
+Requires at least: 2.7
 Tested up to: 3.5
 Stable tag: 3.0
 License: GPLv2 or later
