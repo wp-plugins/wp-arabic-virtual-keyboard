@@ -48,6 +48,7 @@ Make sure the following meta tag is exist immediately after head tag.If not exis
 	 
 = More questions? =
 Visit the Plugin Page. Ask questions. Plugin author will be glad to answer.
+* **http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/**
 
 
 == Screenshots ==
