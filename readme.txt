@@ -2,7 +2,7 @@
 Contributors: Sumith Harshan 
 Donate link: http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/
 Tags: Sumith Harshan,arabic,keyboard,virtual,Iroshan,unicode
-Requires at least: 2.7
+Requires at least: 2.8
 Tested up to: 3.5
 Stable tag: 3.0
 License: GPLv2 or later
@@ -40,11 +40,11 @@ http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/
 
 = Not correctly displaying arabic characters. = 
 Make sure the following meta tag is exist immediately after head tag.If not exist add it.
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+`<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`
 	
 = Not properly displaying arabic characters and layout in some web browser. = 
 Make sure the following meta tag is exist immediately after head tag.If not exist add it.
-<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>
+`<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>`
 	 
 = More questions? =
 Visit the Plugin Page. Ask questions. Plugin author will be glad to answer.
