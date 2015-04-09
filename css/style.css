@@ -1,4 +1,4 @@
-div#keyboard_main_wrapper { 
+div#wpvrk_keyboard_main_wrapper { 
 	display: block;
 	margin: 0 auto;
 	position: relative;
@@ -16,7 +16,7 @@ div#areawrapper {
 	text-align:center;
 }
 
-div#keyboard_main_wrapper div#areawrapper textarea#area.resizable {
+div#wpvrk_keyboard_main_wrapper div#areawrapper textarea#area.resizable {
 	border: 1px solid #CCCCCC;
 	height: 190px;
 	width: 670px;
@@ -94,7 +94,7 @@ div#keyboard ul.cf li {
 }
 
 
-div#keyboard_main_wrapper div#details h3 {
+div#wpvrk_keyboard_main_wrapper div#details h3 {
 	float: left;
 	width: 300px;
 }
@@ -245,7 +245,7 @@ ul#qwerty.additional li a.key	{
 
 #asdfg li #caps span {
 	font-size: 11px;
-	margin: 3px 0 0 10px;
+	margin: 10px 0 0 10px;
 	text-align: left;
 	text-transform: none;
 }

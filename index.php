@@ -5,7 +5,7 @@
 	Description: Make it very easy to type using this virtual keyboard without any 3rd party Software or Web sites.Really easy to type in Arabic language.You can search something in Google or Youtube by using this keyboard.If your keyboard is not working, or you can type in mobile phone easy using this virtual keyboard.Use <strong>[wp-arabic-virtual-keyboard]</strong> shortcode to display the keyboard any place.
 	Author: Sumith Harshan
 	Author URI: http://webexplorar.com/
-	Version: 1.5
+	Version: 2.0
 */	
  
 require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
@@ -17,7 +17,7 @@ function wpavk_admin() {
 		
 add_action('admin_menu', 'wpavk_plugin_admin_add_page');
 function wpavk_plugin_admin_add_page() {
-	add_menu_page('WP Arabic Virtual Keyboard', 'Arabic Keyboard', 'manage_options', 'wpavk_admin', 'wpavk_admin');
+	add_menu_page('WP Arabic Virtual Keyboard', 'Arabic Keyboard', 'manage_options', 'wpavk_admin', 'wpavk_admin',plugins_url('/images/keyboard-icon16.png', __FILE__));
 }
 
 
@@ -49,6 +49,7 @@ add_action('wp_enqueue_scripts', 'wpavk_load_jquery_library');
 
 function wpavk_keyboard_script() {
 	wp_enqueue_script( 'wp-arabic-keyboard', plugin_dir_url( __FILE__ ) . 'js/script.js', array(), '0.1', 'screen' );
+	wp_enqueue_script( 'wp-arabic-keyboard-zclip-min', plugin_dir_url( __FILE__ ) . 'js/jquery.zclip.js', array(), '1.1.1', 'screen' );
 }    
 add_action('wp_enqueue_scripts', 'wpavk_keyboard_script');
 
@@ -78,7 +79,7 @@ function wpavk_keyboard_shortcode($atts) {
 	// define attributes and their defaults
     extract( shortcode_atts( array ('id' => '1'), $atts ) );
  	 
-	$keyboard_content = '<div id=\'keyboard_main_wrapper\'><div id=\'areawrapper\'><textarea tabindex=\'1\' class=\'resizable processed\' name=\'area\' dir=\'rtl\' id=\'area\'></textarea></div><div id=\'keyboard\'> <ul class=\'cf\' id=\'numbers\'>
+	$keyboard_content = '<script>var wpvrk_site_url = "'.get_site_url().'";</script><div id=\'wpvrk_keyboard_main_wrapper\'><div id=\'areawrapper\'><textarea tabindex=\'1\' class=\'resizable processed\' name=\'area\' dir=\'rtl\' id=\'area\'></textarea></div><div id=\'keyboard\'> <ul class=\'cf\' id=\'numbers\'>
 	<li><a class=\'key c192\' onclick=\'wpavk_wr("ذ")\'><span>~</span>&#1584;</a></li>
 	<li><a class=\'key c49\' onclick=\'wpavk_wr("&#1633;")\'><span>1</span>&#1633;</a></li>
 	<li><a class=\'key c50\' onclick=\'wpavk_wr("&#1634;")\'><span>2</span>&#1634;</a></li>
@@ -111,7 +112,7 @@ function wpavk_keyboard_shortcode($atts) {
 	<li><a class=\'key c220 alt\' onclick=\'wpavk_wr("_")\'><span>- _</span></a></li>
 				</ul>
 				<ul class=\'cf\' id=\'asdfg\'>
-	<li><a class=\'key c20 alt\' id=\'caps\' onClick=\'wpavk_op("youtube")\'><span>Search in Youtube</span></a></li>
+	<li><a class=\'key c20 alt\' id=\'caps\'><span>Copy</span></a></li>
 	<li><a class=\'key c65\' onClick=\'wpavk_wr("ش")\'><span>a</span>&#1588;</a></li>
 	<li><a class=\'key c83\' onclick=\'wpavk_wr("س")\'><span>s</span>&#1587;</a></li>
 	<li><a class=\'key c68\' onclick=\'wpavk_wr("ي")\'><span>d</span>&#1610;</a></li>

@@ -1,10 +1,10 @@
 ﻿=== Plugin Name ===
 Contributors: Sumith Harshan 
 Donate link: http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/
-Tags: Sumith Harshan,arabic,keyboard,virtual,Iroshan,unicode
+Tags: Sumith Harshan,Arabic,Keyboard,Virtual,Unicode
 Requires at least: 2.8
-Tested up to: 4.0.1
-Stable tag: 4.0.1
+Tested up to: 4.1.1
+Stable tag: 4.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ No usages of images. Only css and text usages.
 <h4>Browser Compatible</h4>
 * **Firefox 16+**
 * **Chrome 20+**
-* **Internet Explorer 6,7,8,9,10**
+* **Internet Explorer 7,8,9,10**
 * **Safari**
 * **Opera**
 
@@ -31,7 +31,7 @@ No usages of images. Only css and text usages.
 
 1. Upload "wp-arabic-keyboard" file to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to Arabic Keyboard for more instructions. 
+3. Go to "Arabic Keyboard" for more instructions. 
 
 * **If you more details visit official plugin Page.**
 http://webexplorar.com/wordpress-arabic-virtual-keyboard-plugin/
@@ -77,3 +77,6 @@ First version os the plugin.
 	* Added jQuery latest library file.(Version 2.1.1)
 
 
+= 2.0 =
+* Added "Copy" key and copy to clipboard function.
+* Remove "Youtube Search" key.
