@@ -8,7 +8,7 @@ Stable tag: 4.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Make it very easy to type using this virtual keyboard without any 3rd party Software or Web sites.Really easy to type in Arabic language.You can search something in google or yahoo by using this keyboard.If your keyboard is not working, or you can type in mobile phone easy using this virtual keyboard.Use <strong>[wp-arabic-virtual-keyboard]</strong> shortcode to display the keyboard any place.
+Make it very easy to type using this virtual keyboard without any 3rd party Software or Web sites.Really easy to type in Arabic language.
 
 == Description ==
 
