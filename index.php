@@ -68,10 +68,12 @@ add_action('wp_head', 'wpavk_add_metatags');
 function wpavk_add_metatags(){
 	echo '<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>';
 	echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />';
+	
+	echo '<script>var wpvrk_site_url = "'.get_site_url().'";</script>';
+	
 }
 
  
-
 
 function wpavk_keyboard_shortcode($atts) { 
 	ob_start();
@@ -79,7 +81,7 @@ function wpavk_keyboard_shortcode($atts) {
 	// define attributes and their defaults
     extract( shortcode_atts( array ('id' => '1'), $atts ) );
  	 
-	$keyboard_content = '<script>var wpvrk_site_url = "'.get_site_url().'";</script><div id=\'wpvrk_keyboard_main_wrapper\'><div id=\'areawrapper\'><textarea tabindex=\'1\' class=\'resizable processed\' name=\'area\' dir=\'rtl\' id=\'area\'></textarea></div><div id=\'keyboard\'> <ul class=\'cf\' id=\'numbers\'>
+	$keyboard_content = '<div id=\'wpvrk_keyboard_main_wrapper\'><div id=\'areawrapper\'><textarea tabindex=\'1\' class=\'resizable processed\' name=\'area\' dir=\'rtl\' id=\'area\'></textarea></div><div id=\'keyboard\'> <ul class=\'cf\' id=\'numbers\'>
 	<li><a class=\'key c192\' onclick=\'wpavk_wr("ذ")\'><span>~</span>&#1584;</a></li>
 	<li><a class=\'key c49\' onclick=\'wpavk_wr("&#1633;")\'><span>1</span>&#1633;</a></li>
 	<li><a class=\'key c50\' onclick=\'wpavk_wr("&#1634;")\'><span>2</span>&#1634;</a></li>
@@ -89,7 +91,6 @@ function wpavk_keyboard_shortcode($atts) {
 	<li><a class=\'key c54\' onclick=\'wpavk_wr("&#1638;")\'><span>6</span>&#1638;</a></li>
 	<li><a class=\'key c55\' onclick=\'wpavk_wr("&#1639;")\'><span>7</span>&#1639;</a></li>
 	<li><a class=\'key c56\' onclick=\'wpavk_wr("&#1640;")\'><span>8</span>&#1640;</a></li>
-
 	<li><a class=\'key c57\' onclick=\'wpavk_wr("&#1641;")\'><span>9</span>&#1641;</a></li>
 	<li><a class=\'key c48\' onclick=\'wpavk_wr("&#1632;")\'><span>0</span>&#1632;</a></li>
 	<li><a class=\'key c189  alt\' onclick=\'wpavk_wr("~")\'><span>&nbsp;</span>~</a></li>
